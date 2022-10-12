@@ -1,0 +1,70 @@
+.cart{
+    width: 29%;
+    background: #fff;
+    padding: 50px;
+    margin: 34px auto;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0px 0px 6px 1px #808080;
+}
+
+.faIcon{
+    color: white;
+}
+
+#inner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 24px;
+}
+
+
+.title-text{
+    font-size: 24px;
+    text-align: center;
+}
+
+.form,.form-items{
+    width: 100%;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 29px;
+    margin-top: -31px;
+}
+
+#inner-product{
+    width: 45%;
+    border-radius: 11px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+
+.btn{
+    background-color: #198754;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.form_items{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width:484px){
+.cart{
+    width: 60%;
+}
+}
